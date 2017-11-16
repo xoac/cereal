@@ -58,9 +58,9 @@ if(Boost_FOUND)
   include_directories(SYSTEM ${Boost_INCLUDE_DIRS})
 endif(Boost_FOUND)
   
-enable_testing()
-add_subdirectory(unittests)
+# enable_testing()
+# add_subdirectory(unittests)
 
-add_subdirectory(sandbox)
+# add_subdirectory(sandbox)
 
-add_subdirectory(doc)
+# add_subdirectory(doc)
